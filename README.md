@@ -1,1 +1,3 @@
-# en_ru_deep_lexical_association
+# EN_RU Deep Lexical Association Model
+
+

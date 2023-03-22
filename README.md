@@ -35,19 +35,27 @@ NLP models can be used for a variety of applications, such as language translati
 
 _**The main process of building Natural Language Processing (NLP) models**_
 
-![](model-flow.png)
+![](diagrams/model-flow.png)
 
 * **Data Collection:** Collecting a sufficient amount of data for sentiment analysis is essential for creating a robust model. There are several sources for collecting text data, such as social media platforms, review websites, news articles, and surveys.
+
+![](diagrams/1.JPG)
 
 * **Data Preprocessing:** Once the data has been collected, it is essential to preprocess the data to clean it, remove any unwanted or irrelevant information, and convert it into a format that is suitable for analysis. This step includes tasks such as text cleaning, tokenization, and stemming or lemmatization.
 
 * **Feature Extraction:** The next step is to extract features from the preprocessed data, which includes converting the text into a numerical representation that the model can understand. There are several methods for feature extraction, such as bag-of-words, TF-IDF, and word embeddings.
 
+![](diagrams/3.JPG)
+
 * **Model Selection:** Main types of NLP Models is Network Models and   Transformer Models, The choice of model depends on several factors such as the size of the dataset, the complexity of the problem, and the resources available.
 
 * **Model Training:** Once the model has been selected, it is time to train the model on the preprocessed and feature-extracted data. This step involves splitting the data into training and testing sets, and then using the training set to train the model and the testing set to evaluate its performance.
 
+![](diagrams/4.JPG)
+
 * **Model Evaluation:** After the model has been trained, it is essential to evaluate its performance on the testing set. There are several evaluation metrics available, such as accuracy, precision, recall, and F1-score, which can be used to measure the performance of the model.
+
+![](diagrams/6.JPG)
 
 * **Model Deployment:** Once the model has been trained and evaluated, it is ready to be deployed for use. 
 
